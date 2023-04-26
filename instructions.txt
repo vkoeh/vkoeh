@@ -1,4 +1,4 @@
- Homework - GitHub Portfolio
+Homework - GitHub Portfolio
 
 Requirements
 GitHub account

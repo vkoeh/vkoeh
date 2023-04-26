@@ -1,4 +1,15 @@
+# programmierenvertieft
+repository for the course "programmieren vertieft" in the summer term.
+
+----------
 
 
-## Portfolio Website
-The website contains the github portfolio
+
+## projects that will be showcased on the website
+
+- project 1 
+- project 2
+- project 3 
+
+
+
