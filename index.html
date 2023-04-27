@@ -1,38 +1,14 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="https://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Koehnlein_Portfolio</title>
-    <meta name="author" content="Viktoria Köhnlein">
-    <meta name="keywords" content="Portfolio, Website">
-    <!-- Bootstrap CSS
-
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-        -->
-    
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
-
-
-    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-
-    
-    <style>
-        .fakeimg {
-            height: 200px;
-            background: #aaa;
-        }
-    </style>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body>
 
+<body>
 
     <div class="p-5 bg-primary text-white text-center">
         <h1>My Portfolio Website</h1>
@@ -41,9 +17,13 @@
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+            </a>
+
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Active</a>
+                    <a class="nav-link active" href="https://github.com/vkoeh/vkoeh" target="_blank">GitHub</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
@@ -51,57 +31,37 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Link</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
+
             </ul>
         </div>
     </nav>
+    <br />
 
-    <div class="container mt-5">
+
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-4">
-                <h2>About Me</h2>
-                <h5>Photo of me:</h5>
-                <div class="fakeimg">Fake Image</div>
-                <p></p>
-                <h3 class="mt-4">Some Links</h3>
-                <p></p>
-                <ul class="nav nav-pills flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">Active</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-                <hr class="d-sm-none">
+            <div class="col-sm-6 bg-primary">
+                <img src="cat_flowerfield.jpg" class="img-thumbnail" alt="cat" width="300" height="400">
             </div>
-            <div class="col-sm-8">
-                <h2>Portfolio</h2>
-                <h5>Portfolio Website, Apr 21, 2023</h5>
-                <div class="fakeimg">Fake Image</div>
-                
-                <p>This Website is created for a lecture.</p>
 
-                <h2 class="mt-5">TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2020</h5>
-                <div class="fakeimg">Fake Image</div>
-                <p></p>
-                <p></p>
+            <div class="row d-flex justify-content-center col-sm-6 bg-light text-dark">
+                <p>Projects incoming</p>
             </div>
         </div>
     </div>
-
-    <div class="mt-5 p-4 bg-dark text-white text-center">
-        <p>Footer</p>
+    <!--
+    <div class="container-fluid p-3">
+        <div class="row">
+            <div class="col-sm-6 bg-primary">
+                <img src="../cat_flowerfield.jpg" class="img-thumbnail" alt="cat" width="300" height="400">
+            </div>
+            <div class="col-sm-6 bg-dark">
+                <p>Sed ut perspiciatis...</p>
+            </div>
+        </div>
     </div>
+    -->
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
