@@ -1,6 +1,6 @@
 ## projects that will be showcased
 
-- Song Analysisi: Data Science Project
+- Song Analysis: Data Science Project
 
 
 
