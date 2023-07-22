@@ -1,0 +1,42 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.success-container {
+    text-align: center;
+}
+
+.success-title {
+    font-size: 32px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.success-message {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.home-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    .home-link:hover {
+        background-color: #0056b3;
+        transform: scale(1.05);
+    }
